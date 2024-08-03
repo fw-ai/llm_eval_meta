@@ -69,7 +69,7 @@ async def fetch_responses(
 TASK_TO_MAX_TOKENS = {
     "evals__mmlu__details": 1,
     "evals__mmlu__0_shot__cot__details": 1024,
-    # Official meta uses 1024, but a small % (.5) of questions are answered correctly after relaxing
+    # Official meta uses 1024, but a small % (.05) of questions are answered correctly after relaxing
     "evals__mmlu_pro__details": 2048,
     "evals__gsm8k__details": 1024,
 }
