@@ -106,7 +106,7 @@ async def main(args):
             asyncio.create_task(
                 fetch_responses(
                     client,
-                    f"<|begin_of_|text|>{prompt[0]}",
+                    f"<|begin_of_text|>{prompt[0]}",
                     semaphore,
                     idx,
                     args.provider,
